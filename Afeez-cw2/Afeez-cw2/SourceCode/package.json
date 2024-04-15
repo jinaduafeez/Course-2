@@ -1,0 +1,27 @@
+{
+    "name": "Afeez-CW2",
+    "version": "1.0.0",
+    "description": "Crypto Currency Charts",
+    "main": "index.js",
+    "scripts": {
+      "start": "tsc && node dist/index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Afeez ",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/node": "^20.11.17"
+    },
+    "dependencies": {
+      "@aws-sdk/client-apigatewaymanagementapi": "^3.523.0",
+      "@aws-sdk/client-dynamodb": "^3.511.0",
+      "@aws-sdk/client-sagemaker-runtime": "^3.540.0",
+      "@aws-sdk/lib-dynamodb": "^3.511.0",
+      "@types/axios": "^0.14.0",
+      "aws-sdk": "^2.1555.0",
+      "axios": "^1.6.7",
+      "dotenv": "^16.4.5",
+      "typescript": "^5.4.3"
+    }
+  }
+  

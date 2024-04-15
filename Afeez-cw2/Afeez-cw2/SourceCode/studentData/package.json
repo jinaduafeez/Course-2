@@ -1,0 +1,17 @@
+{
+  "name": "cst3130_examplecode_sagemaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-sagemaker-runtime": "^3.535.0",
+    "@types/node": "^20.11.29",
+    "axios": "^1.6.8",
+    "plotly": "^1.0.6"
+  }
+}
